@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+#invoice {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.invoice-title {
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.seller-details, .buyer-details {
+    width: 48%;
+}
+.buyer-details{
+    text-align: right;
+}
+.order-invoice-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.order-details, .invoice-details {
+    width: 48%;
+}
+.invoice-details{
+    text-align: right;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.total-row {
+    font-weight: bold;
+}
+.signature {
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+}
+.signature img {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.amount-words {
+    margin-bottom: 20px;
+}
+.reverse-charge {
+    margin-top: 20px;
+    clear: both;
+}
+#generatePDF {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
